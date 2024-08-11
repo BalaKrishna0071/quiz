@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  
+
+
+</head>
+<body>
+
+    <!-- Navigation -->
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">
+                Quizz
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#quiz">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#language">Language</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<!-- Home Section -->
+
+<!-- Carousel Section -->
+<section>
+    <div id="carouselExampleIndicators" class="carousel slide" id="home">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Assets/img/hhm1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/img/hhm2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/img/hhm3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+</section>
+
+   
+<!-- Welcome Header -->
+<section>
+    <header class="bg-primary text-white text-center py-5">
+        <h1 class="display-4">Welcome to QuizMaster</h1>
+        <p class="lead">Test your knowledge with our fun and challenging quizzes!</p>
+    </header>
+</section>
+
+<!-- about -->
+<section class="container my-5 about-us" id="about">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="section-title">About Us</h2>
+                <p class="section-description">We provide a variety of quizzes to challenge and entertain you. Explore different topics and test your knowledge in a fun and interactive way!</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Assets/img/img1.jpg" class="rounded shadow" height="400px" width="400px" alt="About Us Image">
+            </div>
+        </div>
+</section>
+    
+<!-- Language Section -->
+<section class="container my-5" id="language">
+        <h2 class="text-center mb-4">Available Languages</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="Assets/img/java-img.jpg" class="img-fluid" alt="Language 1">
+            </div>
+            <div class="col-md-3">
+                <img src="Assets/img/python-img.jpg" class="img-fluid" alt="Language 2">
+            </div>
+            <div class="col-md-3">
+                <img src="Assets/img/js-img.png" class="img-fluid" alt="Language 3">
+            </div>
+            <div class="col-md-3">
+                <img src="Assets/img/mysql-img.png" class="img-fluid" alt="Language 4">
+            </div>
+        </div>
+</section>
+    
+
+<!-- Quiz Section -->
+<section class="container my-5" id="quiz">
+    <h2 class="text-center mb-4">Explore Quizzes</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Assets/img/java-img.jpg" class="card-img-top" height="75px" width="col-md-6" alt="Quiz 1">
+                <div class="card-body">
+                    <h5 class="card-title">Java</h5>
+                    <p class="card-text">Test your knowledge of Java programming concepts, syntax, and best practices in this quiz.</p>
+                    <a href="quizz.html?quiz=java" class="btn btn-primary">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Assets/img/python-img.jpg" class="card-img-top" alt="Quiz 2">
+                <div class="card-body">
+                    <h5 class="card-title">Python</h5>
+                    <p class="card-text">Challenge yourself with Python coding questions, from basics to advanced programming topics.</p>
+                    <a href="quizz.html?quiz=python" class="btn btn-primary">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Assets/img/js-img.png" class="card-img-top" alt="Quiz 3">
+                <div class="card-body">
+                    <h5 class="card-title">Javascript</h5>
+                    <p class="card-text">Test your JavaScript skills with questions covering functions, DOM manipulation, and ES6 features.</p>
+                    <a href="quizz.html?quiz=javascript" class="btn btn-primary">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Assets/img/mysql-img.png" class="card-img-top" alt="Quiz 4">
+                <div class="card-body">
+                    <h5 class="card-title">Mysql</h5>
+                    <p class="card-text">Evaluate your knowledge of SQL queries, database design, and relational database management systems.</p>
+                    <a href="quizz.html?quiz=mysql" class="btn btn-primary">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Assets/img/node-img.png" class="card-img-top" alt="Quiz 5">
+                <div class="card-body">
+                    <h5 class="card-title">Node JS</h5>
+                    <p class="card-text">Explore Node.js concepts including event-driven programming, async operations, and JavaScript.</p>
+                    <a href="quizz.html?quiz=nodejs" class="btn btn-primary">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Assets/img/ang-img.png" class="card-img-top" alt="Quiz 6">
+                <div class="card-body">
+                    <h5 class="card-title">Angular Js</h5>
+                    <p class="card-text">Test your skills with AngularJS topics, such as directives, two-way data binding, and services.</p>
+                    <a href="quizz.html?quiz=angular" class="btn btn-primary">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-4">
+            <p>Made With  &#10084;</p>
+</footer>
+    
+ <!-- Bootstrap and Custom JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="/Quizz-App/Quiz-App/js/main.js"></script> -->
+    <script src="/Quizz-App/Quiz-App/js/quizz.js"></script>
+
+</body>
+</html>
+    
